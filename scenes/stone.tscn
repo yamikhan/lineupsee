@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjxu5tofunmlk"]
+
+[ext_resource type="Script" path="res://scripts/stone.gd" id="1_gk1rk"]
+
+[node name="cube" type="Node3D"]
+script = ExtResource("1_gk1rk")

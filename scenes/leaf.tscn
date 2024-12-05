@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c20lp27acvvi0"]
+
+[ext_resource type="Script" path="res://scripts/leaf.gd" id="1_65hh3"]
+
+[node name="leaf" type="Node3D"]
+script = ExtResource("1_65hh3")

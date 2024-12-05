@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy5h38k4r20yo"]
+
+[ext_resource type="Texture2D" uid="uid://jeuthev6vwti" path="res://asset/img/bg.jpg" id="1_gieca"]
+
+[node name="main_menu" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="CanvasLayer"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="CanvasLayer/ParallaxBackground"]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Bg" type="Sprite2D" parent="CanvasLayer/ParallaxBackground/ParallaxLayer"]
+position = Vector2(574, 326)
+scale = Vector2(0.964861, 0.901042)
+texture = ExtResource("1_gieca")

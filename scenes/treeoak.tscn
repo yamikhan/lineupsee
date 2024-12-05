@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://brjx4tfgep1g"]
+
+[ext_resource type="Script" path="res://scripts/treeoak.gd" id="1_ik4wj"]
+
+[node name="treeoak" type="Node3D"]
+script = ExtResource("1_ik4wj")

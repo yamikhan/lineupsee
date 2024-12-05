@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjvte2lg5jf00"]
+
+[ext_resource type="Script" path="res://scripts/dirt.gd" id="1_faed4"]
+
+[node name="cube" type="Node3D"]
+script = ExtResource("1_faed4")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddulx758cgmvj"]
+
+[ext_resource type="Script" path="res://scripts/grass.gd" id="1_htdx7"]
+
+[node name="cube" type="Node3D"]
+script = ExtResource("1_htdx7")

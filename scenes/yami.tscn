@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dalwjnvq66uc7"]
+
+[ext_resource type="PackedScene" uid="uid://ch1tj52l1w3vj" path="res://asset/model/free__player.glb" id="1_q5ivq"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_q5ivq")]
+
+[node name="Camera3D" type="Camera3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/_138/All_137/Chest1_112/Chest2_111/Head_51/cube_4" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.285199)
